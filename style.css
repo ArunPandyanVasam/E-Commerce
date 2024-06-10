@@ -63,9 +63,11 @@ nav {
   font-size: 17px;
   font-weight: bolder;
 }
+
 .links:hover {
   border-bottom: 2px solid purple;
 }
+
 .selected {
   border-bottom: 2px solid purple;
 }
