@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <nav>
+    <!-- <nav>
         <div class="left-links">
             <a class="links selected" href="#">Logo</a>
         </div>
-        <div class="center-links">
+        <div class="nav-links">
             <a class="links" href="#"> Home </a>
             <a class="links" href="#"> Catalog </a>
             <a class="links" href="#"> Shop </a>
@@ -24,12 +25,41 @@
             <a class="links" href="#"> Docs </a>
         </div>
         <div class="right-links">
+            <a class="links" href="#"> <i class="fa fa-search"></i> </a>
+            <a class="links" href="#"> <i class="fa fa-user"></i> </a>
             <a class="links" href="#"> <i class="fa fa-heart-o"></i> </a>
-            <a class="links" href="#"> <i class="fa fa-heart-o"></i> </a>
-            <a class="links" href="#"> <i class="fa fa-heart-o"></i> </a>
-            <a class="links" href="#"> <i class="fa fa-heart-o"></i> </a>
+            <a class="links" href="#"> <i class="fa fa-shopping-cart"></i> </a>
         </div>
-    </nav>
+    </nav> -->
+
+
+
+
+    <div class="topnav" id="myTopnav">
+        <div class="left-links">
+            <a href="#home" class="active">Logo</a>
+        </div>
+
+        <div class="nav-links">
+            <a class="links" href="#"> Home </a>
+            <a class="links" href="#"> Catalog </a>
+            <a class="links" href="#"> Shop </a>
+            <a class="links" href="#"> Pages </a>
+            <a class="links" href="#"> Blogs </a>
+            <a class="links" href="#"> Docs </a>
+        </div>
+
+        <div class="right-links">
+            <a class="links" href="#"> <i class="fa fa-search"></i> </a>
+            <a class="links" href="#"> <i class="fa fa-user"></i> </a>
+            <a class="links" href="#"> <i class="fa fa-heart-o"></i> </a>
+            <a class="links" href="#"> <i class="fa fa-shopping-cart"></i> </a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
     <div style="overflow:auto">
         <div class="menu">
