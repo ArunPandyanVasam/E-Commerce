@@ -8,13 +8,14 @@
   float: left;
   width: 18%;
   text-align: center;
+  margin-top: 25px;
 }
 
 .menu a {
   background-color: #e5e5e5;
   padding: 8px;
-  margin-top: 25px;
   margin-left: 5%;
+  margin-top: 7px;
   display: block;
   width: 100%;
   color: black;
