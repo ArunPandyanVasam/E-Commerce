@@ -41,6 +41,7 @@
 .topnav {
   overflow: hidden;
   background-color: #e5e5e5;
+  padding: 20px 0;
 }
 
 .topnav a {
@@ -48,7 +49,7 @@
   display: block;
   color: #0d1b2a;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -66,7 +67,7 @@
 }
 
 .topnav a.nav-links {
-  padding-top: 1%;
+  padding-top: 1.70%;
 }
 
 @media screen and (max-width: 1025px) {
@@ -101,7 +102,7 @@
 .topnav a.right-links {
   float: right;
   color: #000000;
-  padding-top: 1%;
+  padding-top: 1.7%;
 }
 
 @media screen and (max-width: 1025px) {
