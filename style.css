@@ -139,7 +139,7 @@ html {
 button {
   cursor: pointer;
   font-size: large;
-  padding: 5% 10% 5% 10%;
+  padding: 5% 10%;
   background-color: transparent;
   border: 1px solid #ffffff;
 }
