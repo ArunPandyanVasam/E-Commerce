@@ -13,7 +13,7 @@
 .menu a {
   background-color: #e5e5e5;
   padding: 8px;
-  margin-top: 7px;
+  margin-top: 25px;
   display: block;
   width: 100%;
   color: black;
@@ -21,16 +21,17 @@
 
 .main {
   float: left;
-  width: 55%;
+  width: 60%;
   padding: 0 20px;
+  margin-top: 25px;
 }
 
 .right {
   background-color: #e5e5e5;
   float: left;
-  width: 20%;
+  width: 18%;
   padding: 15px;
-  margin-top: 7px;
+  margin-top: 25px;
   text-align: center;
 }
 
