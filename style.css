@@ -40,13 +40,13 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #fefae0;
+  background-color: #e5e5e5;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #ae2012;
+  color: #0d1b2a;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -118,7 +118,7 @@ html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/background.jpg");
+    url("./images/hero.jpg");
   height: 50%;
 
   background-position: center;
@@ -140,30 +140,18 @@ button {
   cursor: pointer;
 }
 
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
 div.gallery img {
   width: 100%;
   height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* .responsive {
-  padding: 0 6px;
+.responsive {
+  /* padding: 0 6px; */
+  /* margin-top: 0.5%; */
   float: left;
   width: 24.99999%;
 }
@@ -185,4 +173,18 @@ div.desc {
   content: "";
   display: table;
   clear: both;
-} */
+}
+
+.gallery {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
