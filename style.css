@@ -118,6 +118,10 @@ div.gallery img {
   height: auto;
 }
 
+div.gallery:hover img {
+  opacity: 0.9;
+}
+
 * {
   box-sizing: border-box;
 }
