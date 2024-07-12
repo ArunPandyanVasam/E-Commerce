@@ -162,7 +162,7 @@ div.desc {
   box-sizing: border-box;
 }
 
-.responsive {
+/* .responsive {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
@@ -185,4 +185,4 @@ div.desc {
   content: "";
   display: table;
   clear: both;
-}
+} */
