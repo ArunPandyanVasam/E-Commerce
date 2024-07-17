@@ -1,189 +1,188 @@
 /* General Styles */
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  body,
-  html {
-    height: 100%;
-  }
-  
-  /* Top Navigation Styles */
-  .topnav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #e5e5e5;
-    padding: 10px;
-  }
-  
-  .topnav .logo {
-    flex: 1;
-  }
-  
-  .nav-center {
-    display: flex;
-    justify-content: center;
-    flex: 3;
-  }
-  
-  .nav-links {
-    display: block;
-    color: #0d1b2a;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .nav-links:hover {
-    color: black;
-  }
-  
-  .right-links {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 1;
-  }
-  
-  .right-links a {
-    padding: 0 10px;
-    color: #000000;
-  }
-  
-  .topnav .icon {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* Top Navigation Styles */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 10px;
+}
+
+.topnav .logo {
+  flex: 1;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  flex: 3;
+}
+
+.nav-links {
+  display: block;
+  color: #0d1b2a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links:hover {
+  color: black;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.right-links a {
+  padding: 0 10px;
+  color: #000000;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1025px) {
+  .topnav .nav-links,
+  .right-links a:not(.icon) {
     display: none;
   }
-  
-  @media screen and (max-width: 1025px) {
-    .topnav .nav-links,
-    .right-links a:not(.icon) {
-      display: none;
-    }
-  
-    .topnav .icon {
-      display: block;
-      margin-left: auto;
-    }
-  
-    .topnav.responsive .nav-links,
-    .topnav.responsive .right-links a {
-      display: block;
-      text-align: left;
-    }
-  
-    .topnav.responsive .nav-center {
-      display: block;
-      width: 100%;
-    }
-  
-    .topnav.responsive .right-links {
-      display: block;
-      width: 100%;
-    }
+
+  .topnav .icon {
+    display: block;
+    margin-left: auto;
   }
-  
-  /* Hero Image Styles */
-  .hero-image-men {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("./images/photographer.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  
-  button {
-    cursor: pointer;
-    font-size: large;
-    padding: 5% 10%;
-    background-color: transparent;
-    border: 1px solid #ffffff;
-  }
-  
-  /* Gallery Styles */
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive {
-    float: left;
-    width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .gallery {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: xx-large;
-  }
-  
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .bottom-center {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  /* Footer Styles */
-  .footer {
-    background-color: #2f3e46;
-    text-align: center;
-    padding: 10px;
-    margin-top: 7px;
-    color: #ffffff;
-  }
-  
-  .footer hr {
-    opacity: 0.25;
-  }
-  
-  .footer h3 {
-    padding: 1% 0% 0% 25%;
+
+  .topnav.responsive .nav-links,
+  .topnav.responsive .right-links a {
+    display: block;
     text-align: left;
   }
-  
+
+  .topnav.responsive .nav-center {
+    display: block;
+    width: 100%;
+  }
+
+  .topnav.responsive .right-links {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Hero Image Styles */
+.hero-image-men {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/hero-men.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  font-size: large;
+  padding: 5% 10%;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+/* Gallery Styles */
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-center {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #2f3e46;
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+  color: #ffffff;
+}
+
+.footer hr {
+  opacity: 0.25;
+}
+
+.footer h3 {
+  padding: 1% 0% 0% 25%;
+  text-align: left;
+}

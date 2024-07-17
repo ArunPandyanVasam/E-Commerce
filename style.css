@@ -59,31 +59,30 @@ html {
 @media screen and (max-width: 1025px) {
   .topnav .nav-links,
   .right-links a:not(.icon) {
-      display: none;
+    display: none;
   }
 
   .topnav .icon {
-      display: block;
-      margin-left: auto;
+    display: block;
+    margin-left: auto;
   }
 
   .topnav.responsive .nav-links,
   .topnav.responsive .right-links a {
-      display: block;
-      text-align: left;
+    display: block;
+    text-align: left;
   }
 
   .topnav.responsive .nav-center {
-      display: block;
-      width: 100%;
+    display: block;
+    width: 100%;
   }
 
   .topnav.responsive .right-links {
-      display: block;
-      width: 100%;
+    display: block;
+    width: 100%;
   }
 }
-
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
