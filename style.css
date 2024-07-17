@@ -229,3 +229,10 @@ footer h3 {
     padding: 8px 16px;
   }
 }
+
+/* Centering content div */
+.text-center {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
