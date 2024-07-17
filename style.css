@@ -126,7 +126,7 @@ button {
 
 button a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
 .responsive-gallery {
@@ -160,9 +160,10 @@ button a {
   text-align: center;
 }
 
-.centered h3 {
+.centered h2 {
   font-size: 2em;
   margin-bottom: 10px;
+  color: rgb(255, 255, 255);
 }
 
 .centered button {
