@@ -1,3 +1,4 @@
+/* General styles */
 * {
   margin: 0;
   box-sizing: border-box;
@@ -67,28 +68,28 @@ html {
     margin-left: auto;
   }
 
-  .topnav.responsive .nav-links,
-  .topnav.responsive .right-links a {
-    display: block;
-    text-align: left;
-  }
-
-  .topnav.responsive .nav-center {
-    display: block;
-    width: 100%;
-  }
-
+  .topnav.responsive .nav-center,
   .topnav.responsive .right-links {
     display: block;
     width: 100%;
+    text-align: left;
+  }
+
+  .topnav.responsive .nav-links,
+  .topnav.responsive .right-links a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .topnav.responsive .nav-links {
+    text-align: left;
   }
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero.jpg");
   height: 50%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,10 +120,6 @@ div.gallery img {
 
 div.gallery:hover img {
   opacity: 0.9;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .responsive {
