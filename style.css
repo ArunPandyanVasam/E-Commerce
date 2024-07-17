@@ -166,9 +166,8 @@ button a {
 }
 
 .centered button {
-  background-color: #333;
-  color: #fff;
-  border: none;
+  background-color: transparent;
+  border: 1px solid #ffffff;
   padding: 10px 20px;
   font-size: 1em;
 }
