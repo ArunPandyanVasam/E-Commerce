@@ -14,15 +14,15 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #ffffff;
   padding: 10px;
 }
 
 .topnav .logo {
   font-size: 1.5em;
   font-weight: bold;
-  color: #fff;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .nav-center {
@@ -33,7 +33,7 @@ html {
 
 .nav-links {
   display: block;
-  color: #fff;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -41,8 +41,7 @@ html {
 }
 
 .nav-links:hover {
-  background-color: #575757;
-  color: #fff;
+  color: #000000;
 }
 
 .right-links {
@@ -54,7 +53,7 @@ html {
 
 .right-links a {
   padding: 0 10px;
-  color: #fff;
+  color: #000000;
 }
 
 .topnav .icon {
