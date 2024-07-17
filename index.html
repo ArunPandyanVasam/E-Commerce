@@ -2,122 +2,81 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Vogue</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-  <div class="topnav" id="myTopnav">
-    <a href="index.html" class="logo"
-      style="font-size: 150%; font-family: sans-serif; font-weight: bolder; color: #9a031e;">URBANVOGUE</a>
-    <div class="nav-center">
-      <a class="nav-links" href="#"> Home </a>
-      <a class="nav-links" href="check.html"> Catalog </a>
-      <a class="nav-links" href="#"> Shop </a>
-      <a class="nav-links" href="#"> Pages </a>
-      <a class="nav-links" href="#"> Blogs </a>
-      <a class="nav-links" href="#"> Docs </a>
-    </div>
-    <div class="right-links">
-      <a href="#"> <i class="fa fa-user"></i> </a>
-      <a href="#"> <i class="fa fa-shopping-cart"></i> </a>
-      <a href="#"> <i class="fa fa-heart-o"></i> </a>
-      <a href="check.html"> <i class="fa fa-search"></i> </a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </div>
-
-  <div class="hero-image">
-    <div class="hero-text">
-      <h1>WHERE FASHION MEETS<br>PASSION</h1>
-      <p>ALWAYS BE ORIGINAL</p>
-      <br>
-      <button>
-        <a href="check.html" style="text-decoration: none; color: #ffffff;">SHOP NOW</a>
-      </button>
-    </div>
-  </div>
-
-  <div class="responsive">
-    <div class="gallery">
-      <img src="images/men.jpg" alt="Men">
-      <div class="centered">
-        <h3>MEN</h3>
-        <div class="bottom-center">
-          <button>
-            <a href="shop_men.html" style="text-decoration: none; color: #ffffff;">
-              <span style="vertical-align: middle;">SHOP MEN</span>
-              <br>
-              <span style="font-size: 30px; vertical-align: middle;">&rarr;</span>
-            </a>
-          </button>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="logo">URBANVOGUE</a>
+        <div class="nav-center">
+            <a class="nav-links" href="#">Home</a>
+            <a class="nav-links" href="check.html">Catalog</a>
+            <a class="nav-links" href="#">Shop</a>
+            <a class="nav-links" href="#">Pages</a>
+            <a class="nav-links" href="#">Blogs</a>
+            <a class="nav-links" href="#">Docs</a>
         </div>
-      </div>
+        <div class="right-links">
+            <a href="#"><i class="fa fa-user"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#"><i class="fa fa-heart-o"></i></a>
+            <a href="check.html"><i class="fa fa-search"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
-      <img src="images/women.jpg" alt="Women">
-      <div class="centered">
-        <h3>WOMEN</h3>
-        <button>
-          <a href="check.html" style="text-decoration: none; color: #ffffff;">
-            <span style="vertical-align: middle;">SHOP WOMEN</span>
-            <br>
-            <span style="font-size: 30px; vertical-align: middle;">&rarr;</span>
-          </a>
-        </button>
-      </div>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>WHERE FASHION MEETS<br>PASSION</h1>
+            <p>ALWAYS BE ORIGINAL</p>
+            <button><a href="check.html">SHOP NOW</a></button>
+        </div>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
-      <img src="images/kids.jpg" alt="Kids">
-      <div class="centered">
-        <h3>KIDS</h3>
-        <button>
-          <a href="check.html" style="text-decoration: none; color: #ffffff;">
-            <span style="vertical-align: middle;">SHOP KIDS</span>
-            <br>
-            <span style="font-size: 30px; vertical-align: middle;">&rarr;</span>
-          </a>
-        </button>
-      </div>
+    <div class="responsive-gallery">
+        <div class="gallery-item">
+            <img src="images/men.jpg" alt="Men">
+            <div class="centered">
+                <h3>MEN</h3>
+                <button><a href="shop_men.html">SHOP MEN &rarr;</a></button>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/women.jpg" alt="Women">
+            <div class="centered">
+                <h3>WOMEN</h3>
+                <button><a href="check.html">SHOP WOMEN &rarr;</a></button>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/kids.jpg" alt="Kids">
+            <div class="centered">
+                <h3>KIDS</h3>
+                <button><a href="check.html">SHOP KIDS &rarr;</a></button>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/fashion.jpg" alt="Fashion">
+            <div class="centered">
+                <h3>NEW ARRIVALS</h3>
+                <button><a href="check.html">SHOP NOW &rarr;</a></button>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
-      <img src="images/fashion.jpg" alt="Fashion">
-      <div class="centered">
-        <h3>NEW ARRIVALS</h3>
-        <button>
-          <a href="check.html" style="text-decoration: none; color: #ffffff;">
-            <span style="vertical-align: middle;">SHOP NOW</span>
-            <br>
-            <span style="font-size: 30px; vertical-align: middle;">&rarr;</span>
-          </a>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <div class="clearfix"></div>
-
-  <div style="background-color:#2f3e46;text-align:center;padding:10px;margin-top:7px; color: #ffffff;">
-    <hr style="opacity: 0.25;">
-    <h3 style="padding: 1% 0% 0% 25%; text-align: left;">© copyright URBANVOGUE</h3>
-  </div>
-
+    <footer>
+        <div class="footer-content">
+            <hr>
+            <h3>© 2024 URBANVOGUE</h3>
+        </div>
+    </footer>
 </body>
 
 </html>
