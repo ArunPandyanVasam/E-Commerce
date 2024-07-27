@@ -395,9 +395,8 @@ footer h3 {
 }
 
 div.gallery img {
-  width: 80%; /* This ensures the image takes up the full width of its container */
-  height: 400px; /* Set a fixed height to give the image more height */
-  object-fit: cover; /* This ensures the image covers the container without distorting the aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 div.desc {
